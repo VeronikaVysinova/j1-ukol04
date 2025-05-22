@@ -34,7 +34,7 @@ public class Sportka {
      */
     public List<Integer> dejVylosovanaCisla() {
 
-        return new ArrayList<>(osudi.subList(0, 6));
+        return osudi.subList(0,6);
     }
 
     /**
